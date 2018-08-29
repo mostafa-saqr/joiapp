@@ -1,0 +1,38 @@
+header {
+    background: white;
+    padding: 15px 0;
+    margin-bottom: 30px;
+}
+.c-shopping {
+    span {
+        font-size: 16px;
+        display: inline-block;
+        vertical-align: text-bottom;
+        padding: 0 7px;
+        font-weight: 500;
+    }
+    a{
+        color: black;
+        &:hover{
+            text-decoration: none;
+        }
+    }
+}
+.USPS{
+    ul{
+        li{
+            background: #F4F4F4;
+            padding: 15px 39px;
+            margin-right: 26px !important;
+            font-size: 15px;
+           
+                i{
+                    font-size: 25px
+                }
+                span{
+                    vertical-align: super;
+                }
+           
+        }
+    }
+}

@@ -1,0 +1,33 @@
+.overflowheight {
+    overflow-y: hidden;
+}
+
+.cityselection {
+    background: #484848;
+    color: white;
+    padding: 23px 0;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+    .citysel-mask {
+        position: fixed;
+        width: 100%;
+        height: 100%;
+        background: #484848b3;
+        z-index: 500;
+        top: 80px;
+    }
+    .cityselectinput {
+        width: 330px;
+    }
+    .cityselect-btn {
+        background: #8B8B8B;
+        width: 330px;
+        text-align: left;
+        &:after {
+            float: right;
+            margin: 8px 0;
+        }
+    }
+}

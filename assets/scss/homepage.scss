@@ -1,0 +1,115 @@
+@import "./component/variables";
+.USPs {
+    padding: 30px 0px 25px 0px;
+    font-size: 19px;
+    color: #6f6f6f;
+    i {
+        font-size: 30px;
+    }
+    ul {
+        li {
+            span {
+                display: inline-block;
+                vertical-align: super;
+            }
+        }
+    }
+}
+
+.card {
+    border: 0px;
+    background: rgba(255, 255, 255, 0);
+    .card-body {
+        padding: 0.25rem 0;
+    }
+}
+
+
+
+.many-choices {
+    background: #F7F7F7;
+    padding: 40px 0;
+    .card {
+        .card-title {
+            color: $mainColor;
+        }
+    }
+}
+
+.cfy {
+    background: #F7F7F7;
+    padding: 40px 0;
+    .card {
+        .card-title {
+            color: black;
+            font-size: 16px;
+            height: 38.4px;
+            overflow: hidden;
+        }
+    }
+}
+
+.owl-nav {
+    position: absolute;
+    top: 43%;
+    z-index: 2;
+    font-size: 37px;
+    width: 100%;
+    .owl-next {
+        position: absolute;
+        right: 0;
+        outline: 0;
+    }
+    .owl-prev {
+        position: absolute;
+        left: 0;
+        outline: 0;
+    }
+}
+
+.banner {
+    .owl-nav {
+        color: white;
+    }
+}
+
+.product-arrows {
+    .owl-next {
+        right: -2.9rem;
+    }
+    .owl-prev {
+        left: -2.9rem;
+    }
+}
+
+.bann-container {
+    position: relative;
+    .bann-text {
+        position: absolute;
+        z-index: 3;
+        top: 0;
+        right: 11rem;
+        top: 8rem;
+        font-size: 35px;
+        color: #7330b4;
+        font-weight: bold;
+    }
+    .bann-link {
+        position: absolute;
+        z-index: 3;
+        top: 0;
+        right: 12.3rem;
+        top: 12.2rem;
+        font-size: 15px;
+        color: #7330b4;
+        border: 1px solid;
+        border-radius: 11px;
+        padding: 4px 38px;
+    }
+}
+
+.partners {
+    background: #f7f7f7;
+    margin: 30px 0;
+    padding: 25px 0;
+}

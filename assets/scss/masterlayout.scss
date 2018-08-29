@@ -1,0 +1,50 @@
+@import "./component/variables";
+.joi-vector-2-2{
+    cursor: pointer;
+}
+.fw{
+    width: 100%;
+}
+.hidden-overflow{
+    overflow: hidden;
+}
+.section-title {
+    text-align: center;
+    position: relative;
+    margin: 0px 0px 40px 0px;
+    &:after {
+        position: absolute;
+        content: "";
+        width: 85px;
+        height: 5px;
+        bottom: -11px;
+        display: block;
+        margin: auto;
+        left: 0;
+        right: 0;
+        background: $mainColor;
+    }
+} 
+/*city selection validation message */
+.change-city-val {
+    position: absolute;
+    z-index: 5000;
+    top: 0;
+    background: rgba(0, 0, 0, 0.69);
+    width: 100%;
+    height: 100%;
+    display: flex;
+    .ccv-panel {
+        width: 439px;
+        height: 270px;
+        background: white;
+        padding: 34px;
+        margin: auto;
+        position: relative;
+        .joi-vector-2-2 {
+            position: absolute;
+            right: 15px;
+            top: 10px;
+        }
+    }
+}

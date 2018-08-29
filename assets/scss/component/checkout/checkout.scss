@@ -1,0 +1,60 @@
+/*variabels*/
+@import "../variables";
+@import "../buttons";
+@import "../validation-popup";
+@import "./header";
+@import "./footer";
+@import "./sidebar";
+.fw{
+    width: 100%;
+}
+
+body{
+    background: #E5E5E5;
+}
+input, select{
+    height: 45px !important;
+}
+.joi-color{
+    color: $mainColor;
+}
+.checkout-panel{
+    .card{
+        padding: 20px 32px;
+        position: relative;
+        margin-bottom: 30px;
+        h4{
+            font-size: 20px;
+            color: #5D5D5D;
+            margin: 0;
+        }
+    }
+    .co-step {
+        position: absolute;
+        left: -23px;
+        background: #7330B4;
+        color: white;
+        width: 44px;
+        height: 44px;
+        border-radius: 50%;
+        line-height: 40px;
+        text-align: center;
+        font-size: 25px;
+        font-weight: bold;
+        top: 10px;
+    }
+    .co-step.completed{
+        background: #32BA7C;
+    }
+}
+
+
+.card{
+   
+    border: 1.5px solid #DFDFDF;
+    border-radius: 0;
+}
+
+
+
+

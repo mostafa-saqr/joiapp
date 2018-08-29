@@ -1,0 +1,87 @@
+.btn{
+    height: 45px;
+    font-size: 16px;
+    cursor: pointer;
+}
+.main-btn {
+    background: $mainColor;
+    background: linear-gradient(#b268f9, $mainColor, $mainColor);
+    color: white;
+    border: 1.5px solid rgba(255, 255, 255, 0.61);
+}
+.joi-btn {
+    background: $mainColor;
+    color: white !important;
+    border-radius: 0;
+}
+
+.facebook-btn {
+    background: #334F8D;
+    color: white;
+    border: 0;
+    &:hover{
+        color: white; 
+    }
+    span{
+        display: inline-block;
+        vertical-align: super;
+    }
+    i{
+        font-size: 23px;
+        line-height: 39px;
+    }
+}
+.or {
+    font-size: 17px;
+    margin: 20px 0px;
+    text-align: center;
+    position: relative;
+    &:before, &:after{
+        content: '';
+        position: absolute;
+        width: 51px;
+        height: 1px;
+        background: #5A5A5A;
+        top: 50%;
+    }
+    &:before{
+       left: 25%;
+    }
+    &:after{
+       right: 25%;
+    }
+
+}
+.black-btn{
+    background: black;
+    color: white !important;
+    line-height: 30px;
+    &:hover{
+        color: white; 
+    }
+}
+.white-btn{
+    background: white;
+    color: black;
+    border: 1.5px solid black;
+    line-height: 30px;
+    &:hover{
+        color: black; 
+    }
+}
+.forgetpass {
+    font-size: 12px;
+    color: #5A5A5A;
+    font-weight: bold;
+}
+.apply-disc-btn {
+    width: 71px;
+    height: 28px;
+    margin: 0 auto;
+    background: black;
+    color: white !important;
+    font-size: 15px;
+    line-height: 0.7;
+    vertical-align: super;
+    border-radius: 2px;
+}

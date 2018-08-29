@@ -1,0 +1,42 @@
+.seotab {
+    font-size: 20px;
+    font-weight: bold;
+    color: $mainColor;
+    line-height: 1.8;
+}
+
+.seoarea {
+    background: #F7F7F7;
+    margin-bottom: 25px;
+    padding: 15px 0px 10px 15px;
+    position: relative;
+    cursor: pointer;
+    &:before {
+        position: absolute;
+        content: "";
+        width: 3px;
+        height: 49px;
+        background: #4f4f4f;
+        z-index: 2;
+        top: 0.55rem;
+        left: 15rem;
+    }
+    &:after {
+        position: absolute;
+        content: "\65";
+        font-family: "untitled-font-4" !important;
+        right: 5rem;
+        top: 12px;
+        font-size: 28px;
+        -ms-transform: rotate(90deg);
+        -webkit-transform: rotate(90deg);
+        transform: rotate(90deg);
+        color: #656565;
+    }
+}
+
+.seoarea.opend:after {
+    -ms-transform: rotate(-92deg);
+    -webkit-transform: rotate(-92deg);
+    transform: rotate(-92deg);
+}

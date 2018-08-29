@@ -1,0 +1,19 @@
+.login-form-input {
+
+    border: 1.5px solid black;
+}
+.new-user {
+    position: relative;
+    &:after{
+        content: '';
+        position: absolute;
+        height: 215px;
+        width: 1px;
+        background: #5A5A5A;
+        top: 35px;
+        right: 0;
+    }
+}
+.forgetpass{
+    cursor: pointer;
+}

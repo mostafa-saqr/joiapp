@@ -1,0 +1,131 @@
+@import "./component/variables";
+.checkout-header {
+    h3 {
+        font-size: 30px;
+        display: inline-block;
+        margin: 0
+    }
+    small{
+        font-size: 16px;
+        color: #828282;
+        padding: 0 7px;
+    }
+    
+    .btn {
+        width: 250px;
+        height: 45px;
+        border-radius: 0;
+    }
+    .del-to{
+        font-size: 18px;
+        font-weight: 500;
+        a{
+            color: black;
+            text-decoration: underline;
+        }
+    }
+}
+.checkout-footer {
+    background: #F6F7FA;
+    padding: 15px 5px;
+    .payment-meth{
+        .USPS{
+            i{
+                font-size: 22px;
+            }
+        }
+    }
+    input {
+        height: 38px;
+        width: 267px !important;
+        border-radius: 0;
+    }
+    .apply-copon{
+        border-radius: 0;
+        width: 75px;
+    }
+    .deliverto{
+        font-size: 17px;
+        margin-bottom: 25px;
+    }
+    .pay-meth-sec {
+        font-size: 12px;
+        color: #636161;
+        font-weight: bold;
+    }
+}
+.qty {
+    position: relative;
+    border: 1px solid #E9ECEF;
+    width: 100px;
+    text-align: center;
+    height: 40px;
+    line-height: 37px;
+    font-weight: bold;
+    span{
+        -webkit-touch-callout: none; /* iOS Safari */
+        -webkit-user-select: none; /* Safari */
+         -khtml-user-select: none; /* Konqueror HTML */
+           -moz-user-select: none; /* Firefox */
+            -ms-user-select: none; /* Internet Explorer/Edge */
+                user-select: none; /* Non-prefixed version, currently*/
+    }
+    .dec{
+        position: absolute;
+        left: 6px;
+        font-size: 40px;
+        top: -4px;
+        font-weight: normal;
+        cursor: pointer;
+        z-index: 2;
+    }
+    .inc{
+        
+        position: absolute;
+        right: 6px;
+        font-size: 25px;
+        top: -4px;
+        font-weight: normal;
+        cursor: pointer;
+        z-index: 2;
+    }
+    .dec.disapled{
+        color: #E9ECEF;
+    }
+}
+.table  {
+    .thead-light{
+        th {
+            color: #495057;
+            background-color: #F6F7FA;
+            border-color: #F6F7FA;
+            font-size: 18px;
+        }
+    }
+    
+    tr{
+        td{
+            p{
+                font-size: 16px;
+                a{
+                    color: black;
+                }
+            }
+        }
+    }
+}
+.extra-special{
+    .card-body{
+        text-align: center;
+    }
+    .card-price{
+        color: $mainColor;
+    }
+    .white-btn{
+        border-radius: 0;
+        width: 152px;
+        height: 30px;
+        padding: 0;
+        
+    }
+}

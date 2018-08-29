@@ -1,0 +1,24 @@
+@import "../../node_modules/bootstrap/scss/bootstrap";
+/*variabels*/
+@import "./component/variables";
+
+/*masterlayout*/
+@import "./masterlayout";
+
+/*header*/
+@import "./component/header/menu";
+@import "./component/header/topheader";
+@import "./component/header/middleheader";
+@import "./component/header/fixedarea";
+@import "./component/header/cityselection";
+
+/*footer*/
+@import "./component/footer/seoarea";
+@import "./component/footer/callus";
+@import "./component/footer/connectwithus";
+@import "./component/footer/copyright";
+@import "./component/footer/footermenu";
+@import "./component/footer/newsletter";
+
+/*buttons*/
+@import "./component/buttons";  

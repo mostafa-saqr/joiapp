@@ -1,0 +1,33 @@
+/*city selection validation message */
+.hidden-overflow{
+  overflow: hidden;
+}
+.validation-popup {
+    position: absolute;
+    z-index: 5100;
+    top: 0;
+    background: rgba(0, 0, 0, 0.69);
+    width: 100%;
+    height: 100%;
+    display: flex;
+    
+    .validation-panel {
+      width: 439px;
+      background: white;
+      padding: 24px;
+      margin: auto;
+      position: relative;
+        .validation-title {
+          font-size: 23px;
+          font-weight: bold;
+      }
+    }
+  }
+ 
+  
+  .validation-popup .validation-panel .joi-vector-2-2 {
+    position: absolute;
+    right: 15px;
+    top: 10px;
+    cursor: pointer;
+  }

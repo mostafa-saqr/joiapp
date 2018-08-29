@@ -1,0 +1,49 @@
+/*make dropdown menu contain many colmun*/
+
+body {
+    overflow-x: hidden;
+}
+
+.bottom-header {
+    position: relative;
+    background: #f8f9fa;
+    a {
+        color: black !important;
+    }
+    .multi-col {
+        width: 100%;
+        top: 37px;
+        border: 0;
+        border-radius: 0;
+        padding-top: 20px;
+    }
+    .dropdown,
+    .navbar {
+        position: unset;
+    }
+    .dropdown:hover>.dropdown-menu {
+        display: block;
+    }
+    .dropdown-toggle::after {
+        border-top: 0;
+    }
+    .whatsjoi {
+        text-decoration: none;
+        span {
+            display: inline-block;
+            vertical-align: super;
+        }
+        i {
+            font-size: 25px;
+        }
+    }
+    .megamenu-mask {
+        position: absolute;
+        top: 40px;
+        left: 0;
+        width: 100%;
+        height: 100vh;
+        background: #00000063;
+        z-index: 2;
+    }
+}
